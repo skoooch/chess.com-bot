@@ -8,8 +8,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import time
 from stockfish import Stockfish
-stock = Stockfish('/Users/ewanj/Desktop/stockfish_13_win_x64.exe')
-PATH = "C:\Program Files (x86)\chromedriver.exe"
+stock = Stockfish('extras/stockfish_13_win_x64.exe')
+PATH = "extras/chromedriver.exe"
 from selenium.common.exceptions import TimeoutException
 driver = webdriver.Chrome(PATH)
 t = time.time()
